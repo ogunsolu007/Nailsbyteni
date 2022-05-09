@@ -1,0 +1,32 @@
+.gallery {
+  background-color: aliceblue;
+  padding: 30px;
+}
+.media {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.flex-wrap {
+  height: 500px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.flex-wrap img {
+  height: 500px;
+  flex: 1;
+  object-fit: cover;
+}
+
+.gallery_heading {
+  text-align: center;
+  padding: 20px;
+  color: rgb(65, 60, 60);
+  font-family: "Nunito";
+  font-weight: bolder;
+  font-size: 25px;
+}

@@ -1,0 +1,67 @@
+.section_whyus {
+  background-color: aliceblue;
+  color: rgb(65, 60, 60);
+  padding: 20px 0 0 50px;
+  position: relative;
+}
+.section_whyus .container {
+  padding: 100px 0;
+  /* padding: 20px 0 0 50px; */
+}
+.whyus_img {
+  flex: 1;
+  position: relative;
+}
+.whyus_img div {
+  border: 12px dotted rgb(65, 60, 60);
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  top: -200px;
+  left: 96px;
+}
+
+.nails3 {
+  position: absolute;
+  top: -120px;
+  left: -50px;
+  z-index: 1000;
+}
+.nails4 {
+  position: absolute;
+  top: -120px;
+  right: 24px;
+}
+img {
+  width: 250px;
+  height: 300px;
+}
+
+.whyus_content {
+  width: 50%;
+  padding: 0 30px;
+}
+.whyus_content h1 {
+  font-family: "Poppins";
+  font-style: 300;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Poppins";
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.whyus_content .p2 {
+  margin-bottom: 10px;
+}
+
+.whyus_content .btn_cta {
+  background-color: rgb(65, 60, 60);
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 7px 15px;
+  margin-top:20px;
+}

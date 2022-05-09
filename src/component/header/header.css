@@ -1,0 +1,46 @@
+.header {
+  background-color: rgb(65, 60, 60);
+  color: aliceblue;
+  height: 85vh;
+  position: relative;
+}
+.container {
+  padding-top: 150px;
+}
+
+hr {
+  width: 50px;
+  margin-bottom: 12px;
+}
+
+.header_text {
+  width: 50%;
+}
+.header_text h1 {
+  font-family: "Nunito";
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+.header_text p {
+  font-family: "Poppins";
+  font-weight: 300;
+  margin-bottom: 24px;
+  line-height: 3;
+}
+.header .btn_cta {
+  background-color: aliceblue;
+  color: rgb(65, 60, 60);
+  padding: 7px 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.header_img {
+  width: 50%;
+  padding-left: 170px;
+}
+.header img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding-left: 15px;
+}

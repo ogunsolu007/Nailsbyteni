@@ -1,0 +1,43 @@
+.nav-container {
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(65, 60, 60);
+  z-index: 2000;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-weight: 300;
+  font-size: 30px;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  margin-right: 80px;
+}
+
+li {
+  margin-left: 50px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 200;
+}
+li:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+li:hover:after {
+  width: 100%;
+  background: aliceblue;
+}
+.active {
+  border-bottom: 4px solid;
+}
+
