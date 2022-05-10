@@ -1,13 +1,13 @@
 import React from "react";
 import "./header.css";
-import nails1 from "../../images/nails1.jpg"
+import nails1 from "../../images/nails1.jpg";
 import Nav from "../Nav/Nav";
 
 const Header = () => {
   return (
     <>
       <div className="header">
-        <Nav/>
+        <Nav />
         <div className="container flex">
           <div className="header_text">
             <h1>

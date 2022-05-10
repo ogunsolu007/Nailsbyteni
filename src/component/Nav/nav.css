@@ -17,6 +17,11 @@ ul {
   margin-right: 80px;
 }
 
+.bar {
+  color: aliceblue;
+  font-size: 30px;
+}
+
 li {
   margin-left: 50px;
   list-style: none;
@@ -25,6 +30,10 @@ li {
   font-family: "Poppins";
   font-weight: 200;
 }
+.link {
+  list-style: none;
+}
+
 li:after {
   content: "";
   display: block;
@@ -41,3 +50,8 @@ li:hover:after {
   border-bottom: 4px solid;
 }
 
+@media screen and (max-width : 768px) {
+  ul {
+    display: none ;
+  }
+}
