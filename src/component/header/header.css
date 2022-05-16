@@ -1,11 +1,11 @@
 .header {
   background-color: rgb(65, 60, 60);
   color: aliceblue;
-  height: 85vh;
+  height: 95vh;
   position: relative;
 }
 .container {
-  padding-top: 150px;
+  padding-top: 180px;
 }
 
 hr {

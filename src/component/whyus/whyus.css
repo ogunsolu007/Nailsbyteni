@@ -19,39 +19,30 @@
   position: absolute;
   top: -200px;
   left: 96px;
+  z-index: 0;
 }
 
-.nails3 {
-  position: absolute;
-  top: -120px;
-  left: -50px;
-  z-index: 1000;
-}
-.nails4 {
-  position: absolute;
-  top: -120px;
-  right: 24px;
-}
 img {
   width: 250px;
   height: 300px;
 }
 
 .whyus_content {
-  width: 50%;
+  width: 90%;
   padding: 0 30px;
 }
 .whyus_content h1 {
   font-family: "Poppins";
   font-style: 300;
-  font-size: 25px;
+  font-size: 50px;
   margin-bottom: 10px;
 }
 
-p {
+.whyus_content p {
   font-family: "Poppins";
   font-weight: normal;
   margin-bottom: 20px;
+  font-size: 22px;
 }
 .whyus_content .p2 {
   margin-bottom: 10px;
@@ -63,5 +54,38 @@ p {
   font-size: 16px;
   font-weight: bold;
   padding: 7px 15px;
-  margin-top:20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .section_whyus {
+    padding: 0;
+  }
+  .section_whyus .container {
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .whyus_img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .whyus_content {
+    width: 100%;
+  }
+  .whyus_img div {
+    display: none;
+  }
+
+  img {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+  }
 }

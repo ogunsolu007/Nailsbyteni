@@ -1,10 +1,10 @@
 import React from "react";
 import "./services.css";
 import nails2 from "../../images/nails2.jpg";
-import pedicure from "../../images/pedicure.png"
+import pedicure from "../../images/pedicure.png";
 import paint from "../../images/paint.jpg";
-import nailart from "../../images/nailart.jpg"
-import parrafinwax from "../../images/parrafinwax.jpg"
+import nailart from "../../images/nailart.jpg";
+import parrafinwax from "../../images/parrafinwax.jpg";
 const Services = () => {
   return (
     <>

@@ -2,7 +2,7 @@
   background-color: rgb(65, 60, 60);
   color: aliceblue;
   padding: 50px;
-  font-family: "Nunito";
+  font-family: "Poppins" sans-serif;
 }
 .flex-items {
   width: 80%;
@@ -12,16 +12,38 @@
 }
 .flex-item h2 {
   margin-bottom: 10px;
+  font-size: 26px;
 }
 .flex-item_content {
   display: flex;
   align-items: flex-start;
   gap: 250px;
 }
+.heading {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+p,
 .icon {
   font-size: 20px;
+  margin-top: 30px;
 }
 .space {
   margin: 0 40px;
 }
 
+@media screen and (max-width: 768px) {
+  .flex-items {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .flex-item_content {
+    display: flex;
+    align-items: flex-start;
+    gap: 150px;
+  }
+}
