@@ -8,20 +8,25 @@ import ScrollAnimation from "react-animate-on-scroll";
 const Whyus = () => {
   return (
     <>
-      <div className="section_whyus">
-        <div className="container flex">
-          <ScrollAnimation animateIn="fadeIn" duration={6} delay={3}>
-            <div className="whyus_img">
-              <img src={nails4} alt="nailsimg" className="nails3 " />
-              <img src={nails5} alt="" className="nails5" />
-              <img src={nails3} alt="nailsimg" className="nails4 " />
-              <img src={nails8} alt="" className="nails8" />{" "}
-            </div>
+      <div className="whyus_section">
+        <div className="whyus_container flex_container">
+          <ScrollAnimation
+            animateIn="fadeIn"
+            duration={6}
+            delay={3}
+            className="nails_img"
+          >
+            <img src={nails4} alt="nailsimg" />
+            <img src={nails5} alt="nailsimg" />
+            <img src={nails3} alt="nailsimg" />
+            <img src={nails8} alt="nailsimg" />
           </ScrollAnimation>
-
-          <div className="whyus_content">
-            <ScrollAnimation animateIn="slideInUp" duration={3}>
-               <h1>
+          <ScrollAnimation
+            animateIn="slideInUp"
+            duration={3}
+            className="whyus_content"
+          >
+            <h1>
               Why Our Clients <br />
               -----Choose Us
             </h1>
@@ -35,9 +40,7 @@ const Whyus = () => {
               amet consectetur adipisicing elit. Incidunt, aspernatur?
             </p>
             <button className="btn_cta btn">Book Now</button>
-            </ScrollAnimation>
-           
-          </div>
+          </ScrollAnimation>
         </div>
       </div>
     </>

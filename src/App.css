@@ -1,15 +1,13 @@
-
-
-.flex {
-  width: 80%;
+.flex_container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  width: 90%;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
-.btn{
-    border-radius: 500px;
-    outline: none;
-    border: none;
-    cursor: pointer;
+.btn {
+  border-radius: 500px;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }

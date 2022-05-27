@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import nails1 from "../../images/nails1.jpg";
+import nails13 from "../../images/nails13.jpg";
 import Nav from "../Nav/Nav";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <>
       <div className="header">
-        <Nav />
-        <div className="container flex">
-          <div className="header_text">
+        {/* <Nav /> */}
+        <div className="header_container flex_container">
+          <div className="header_text-container">
             <ScrollAnimation animateIn="fadeIn " duration={4}>
               <h1>
                 Nails By Teni <br /> Creating Beauty
@@ -24,11 +24,9 @@ const Header = () => {
               <button className="btn_cta btn">Explore</button>
             </ScrollAnimation>
           </div>
-          <div className="header_img">
-            <ScrollAnimation animateIn="rollIn" duration={5}>
-              <img src={nails1} alt="nails" />
-            </ScrollAnimation>
-          </div>
+          <ScrollAnimation animateIn="slideInRight" duration={5} className="header_img">
+            <img src={nails13} alt="nails" />
+          </ScrollAnimation>
         </div>
       </div>
     </>

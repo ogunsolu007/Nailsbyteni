@@ -39,9 +39,6 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="service_img">
-          <img src={nails2} alt="nails2" />
-        </div>
       </div>
     </>
   );

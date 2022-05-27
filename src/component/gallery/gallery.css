@@ -1,6 +1,7 @@
 .gallery {
   background-color: aliceblue;
   padding: 30px;
+  /* width: 100vw; */
 }
 .media {
   display: flex;
@@ -31,8 +32,8 @@
   font-size: 25px;
 }
 
-@media screen and (max-width:768px) {
-  .flex-wrap{
-    width:100%
+@media screen and (max-width: 768px) {
+  .flex-wrap {
+    width: 100%;
   }
 }
