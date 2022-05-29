@@ -1,4 +1,5 @@
 .contact_section {
+  width: 100vw;
   background-color: rgb(65, 60, 60);
   color: aliceblue;
   padding: 50px;
@@ -9,6 +10,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+
 }
 .flex-item h2 {
   margin-bottom: 10px;

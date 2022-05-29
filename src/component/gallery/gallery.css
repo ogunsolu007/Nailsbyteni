@@ -1,7 +1,7 @@
 .gallery {
   background-color: aliceblue;
   padding: 30px;
-  /* width: 100vw; */
+  width: 100vw;
 }
 .media {
   display: flex;
